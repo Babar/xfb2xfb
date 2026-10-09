@@ -98,6 +98,9 @@ GitHub's README renderer strips custom CSS, so sticky headers require a separate
 webpage. This viewer renders the Technology table above directly from this file;
 keep editing the Markdown table to update its contents.
 
+The viewer follows your device's light or dark appearance automatically, including
+the sticky header, links, row highlights, and scrollbars. Printing uses light colors.
+
 ### Publish your fork
 
 1. In your fork, open **Settings → Pages** and select **GitHub Actions** as the
