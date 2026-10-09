@@ -1,9 +1,10 @@
 # xfb2xfb (https://github.com/greko6/xfb2xfb)
 by ex-Facebookers, for ex-Facebookers (aka Metamates) - a lookup table of similar tech &amp; services
 
-[Browse with sticky headers](../../deployments/github-pages) — open the latest
-successful deployment and click **View deployment**. This link follows the current
-repository, so forks open their own site after enabling Pages.
+[Browse with sticky headers](../../actions/workflows/pages.yml) — open the latest
+successful run, then its **github-pages** website link. This shortcut follows the
+current repository, so forks open their own site after enabling Pages. A direct
+site link is also available in the repository's **About** section when configured.
 
 No confidental projects, please.
 
@@ -108,9 +109,10 @@ keep editing the Markdown table to update its contents.
    **Deployments** section. You can also add it to the repository's **About →
    Website** field for a direct link.
 
-The README uses a relative deployment link because GitHub does not substitute
-repository names into Markdown links. It stays within the current fork and works
-with custom Pages domains. A fork without Pages enabled has no published site yet.
+The README uses a relative workflow link because GitHub does not substitute
+repository names into Markdown links. It stays within the current fork, is visible
+without signing in, and leads to the site's actual deployment URL, including custom
+Pages domains. A fork without Pages enabled has no published site yet.
 
 The site's **View on GitHub** link uses `GITHUB_REPOSITORY` during the workflow
 build. Local builds use the `origin` remote, falling back to the original repository
